@@ -22,12 +22,12 @@ def index():
 @app.route('/en/', methods=['POST', 'GET'])
 def index_en(lang=None):
     lang = 'en'
-    title_text = 'All about Product'
+    title_text = 'Hi!! I enjoy working with computers and people to solve problem for business. I started my career as Software developer, progressing into Tech lead and Product Management now.'
     #helper.get_title_content('index', lang)
 
     return render_template('index.html',
                                 title_text=title_text,
-                                title="Product Analysis",
+                                title="User - Data - Analysis - Product",
                                 id="index",
                                 lang=lang)
 
@@ -75,7 +75,7 @@ def about_en():
 
     lang = 'en'
 
-    title_text = 'About'
+    title_text = 'About Me'
     #helper.get_title_content('about', lang)
 
     skills = 'Skills'
@@ -84,7 +84,7 @@ def about_en():
     return render_template('/about.html',
                             title_text=title_text,
                             skills=skills,
-                            title="ABOUT ME",
+                            title="",
                             id="about",
                             lang=lang)
 
