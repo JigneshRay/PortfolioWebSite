@@ -7,7 +7,7 @@
 
 #index-navbarbrand
 {
-    color: #3ab0ae;
+    color: #E27D60;
 }
 
 #portfolio-navbarbrand
@@ -17,12 +17,12 @@
 
 #about-navbarbrand
 {
-    color: #3ab0ae;
+    color: #E27D60;
 }
 
 #index-nav-link:hover, #index-btn-lang
 {
-    background-color: #33C6B8;
+    background-color: #E27D60;
 }
 
 #portfolio-nav-link:hover, #portfolio-btn-lang
@@ -32,7 +32,7 @@
 
 #about-nav-link:hover, #about-btn-lang
 {
-    background-color: #33C6B8;
+    background-color: #E27D60;
 }
 
 .title-color
@@ -44,7 +44,7 @@
 
 #index-title
 {
-    background-color: #33C6B8;
+    background-color: #E27D60;
 }
 
 #portfolio-title
@@ -54,7 +54,7 @@
 
 #about-title
 {
-    background-color: #33C6B8;
+    background-color: #E27D60;
 }
 
 .container
@@ -71,7 +71,7 @@
 
 .title-color
 {
-    height: 300px;
+    height: 200px;
     position: relative;
 }
 
@@ -79,14 +79,14 @@
 {
     padding-left: 180px;
     position: absolute;
-    bottom: 100px;
+    bottom: 20px;
     width: 100%;
 }
 
 .title-text
 {
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin: 0;
 }
@@ -104,7 +104,7 @@
 
 .index-header
 {
-    color: #2CD4A7;
+    color: #E27D60;
     font-weight: bold;
     margin-bottom: 40px;
     padding: 10px;
@@ -113,7 +113,7 @@
 .index-btn
 {
     margin: 10px 0 10px 0;
-    background-color: #2CD4A7;
+    background-color: #E27D60;
     color: #FFFFFF;
     padding: 5px 0 5px 0;
 }
@@ -128,7 +128,7 @@
 .index-link:hover
 {
     text-decoration: none;
-    color: #2CD4A7;
+    color: #E27D60;
 }
 
 .index-img
@@ -149,13 +149,13 @@
 
 .title-link
 {
-    color: #2FDEDB;
+    color: #E27D60;
 }
 
 .title-link:hover
 {
     text-decoration: none;
-    color: #2FDEDB;
+    color: #E27D60;
 }
 
 .col-md-5
@@ -177,7 +177,7 @@
 .bold
 {
     font-weight: bold;
-    color: #2FDEDB;
+    color: #E27D60;
 }
 
 .portfolio-img
@@ -319,9 +319,9 @@
   width: 0;
   z-index: 5;
   right: 30px;
-  border: medium solid #33C6B8;
+  border: medium solid #E27D60;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #33C6B8;
+  border-color: transparent transparent transparent #E27D60;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -333,9 +333,9 @@
   width: 0;
   z-index: 5;
   left: 30px;
-  border: medium solid #33C6B8;
+  border: medium solid #E27D60;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #33C6B8 transparent transparent;
+  border-color: transparent #E27D60 transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -348,7 +348,7 @@
   padding: 20px 30px;
   background-color: white;
   position: relative;
-  border: 2px solid #33C6B8;
+  border: 2px solid #E27D60;
   border-radius: 6px;
 }
 
@@ -403,7 +403,7 @@ hr {
 
 h2.about-header
 {
-    color: #33C6B8;
+    color: #E27D60;
 }
 
 .about-row
