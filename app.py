@@ -22,7 +22,7 @@ def index():
 @app.route('/en/', methods=['POST', 'GET'])
 def index_en(lang=None):
     lang = 'en'
-    title_text = 'Hi!! I enjoy working with computers and people to solve problem for business. I started my career as Software developer, progressing into Tech lead and Product Management now.'
+    title_text = 'Hi!! I enjoy working with computers and people to solve problem for business. Currently working with Medicare Products and learning to do analysis with Python.'
     #helper.get_title_content('index', lang)
 
     return render_template('index.html',
@@ -75,7 +75,7 @@ def about_en():
 
     lang = 'en'
 
-    title_text = 'About Me'
+    title_text = 'I started my career as Software developer, progressing into Tech lead and Product Management now.'
     #helper.get_title_content('about', lang)
 
     skills = 'Skills'
@@ -84,7 +84,7 @@ def about_en():
     return render_template('/about.html',
                             title_text=title_text,
                             skills=skills,
-                            title="",
+                            title="Professional Journey",
                             id="about",
                             lang=lang)
 
@@ -108,7 +108,7 @@ def jigenshray_en():
     #helper.get_privacy_legal_notice()
 
     return render_template('/jigenshray.html',
-                            title="PRIVACY NOTICE (ONLY AVAILABLE IN GERMAN)",
+                            title="",
                             address_one=address_one,
                             address_two=address_two,
                             email=email,
